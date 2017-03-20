@@ -4,8 +4,8 @@
   "description": "Allows full javascript imports into the serverless.yml",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "coverage": "nyc mocha"
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "hugo.armstrong@gmail.com",
   "license": "MIT",

@@ -6,9 +6,6 @@ node_js:
   - '4'
 sudo: false
 
-before_install:
-  - npm install -g ava
-
 after_success:
   - npm run coverage
 
