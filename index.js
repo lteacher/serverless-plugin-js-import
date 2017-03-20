@@ -57,6 +57,11 @@ module.exports = function(S) {
         return super.getValueFromFile(variableString);
       }
     }
+
+    // Resolves any function else returns the input
+    resolveFunction(js) {
+      return _.isFunction(js) ? this.resolveFunction(js()) : js;
+    }
   }
 
   return new CustomVariables(S);
