@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-js-import",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Allows full javascript imports into the serverless.yml",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "coverage": "nyc mocha"
   },
   "author": "hugo.armstrong@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4"
   },

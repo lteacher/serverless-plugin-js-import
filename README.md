@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/lteacher/serverless-plugin-js-import.svg?branch=master)](https://travis-ci.org/lteacher/serverless-plugin-js-import)
 [![Coverage Status](https://coveralls.io/repos/github/lteacher/serverless-plugin-js-import/badge.svg?branch=master)](https://coveralls.io/github/lteacher/serverless-plugin-js-import?branch=master)
+[![npm version](https://badge.fury.io/js/serverless-plugin-js-import.svg)](https://badge.fury.io/js/serverless-plugin-js-import)
 
 ### What is this?
 
