@@ -1,0 +1,14 @@
+{
+  "name": "serverless-plugin-js-import",
+  "version": "0.1.0",
+  "description": "Allows full javascript imports into the serverless.yml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
