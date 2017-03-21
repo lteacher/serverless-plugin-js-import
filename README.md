@@ -7,7 +7,9 @@
 ### What is this?
 
 This is a plugin for serverless which allows a user to specify an entire
-js file for import.
+js file for import. This could be useful for some plugin developer who wants to
+provide a way for their users to import a config directly from js rather than
+specifying a path.
 
 ### Why for?
 

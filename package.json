@@ -1,8 +1,12 @@
 {
   "name": "serverless-plugin-js-import",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Allows full javascript imports into the serverless.yml",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lteacher/serverless-plugin-bundler.git"
+  },
   "scripts": {
     "test": "nyc mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
@@ -23,5 +27,12 @@
     "sinon": "^2.0.0",
     "sinon-test": "^1.0.1",
     "tmp": "0.0.31"
-  }
+  },
+  "keywords": [
+    "serverless",
+    "plugin",
+    "js",
+    "import",
+    "configuration"
+  ]
 }
