@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-js-import",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Allows full javascript imports into the serverless.yml",
   "main": "index.js",
   "repository": {
